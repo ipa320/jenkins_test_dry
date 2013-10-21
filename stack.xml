@@ -9,6 +9,7 @@
 
   <depend stack="ros" />
   <depend stack="roscpp" />
+  <depend stack="roslaunch" />
   <depend stack="jenkins_test_wet" />
 
 </stack>
