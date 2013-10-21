@@ -1,0 +1,15 @@
+<package>
+  <description brief="dry3">
+
+     dry3
+
+  </description>
+  <author>fmw</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dry3</url>
+  <depend package="wet2"/>
+
+</package>
+
+
