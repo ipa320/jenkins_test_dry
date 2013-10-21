@@ -30,3 +30,6 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #target_link_libraries(example ${PROJECT_NAME})
 
 rosbuild_add_executable(listener src/listener.cpp)
+
+# rostest
+rosbuild_add_roslaunch_check(launch)
