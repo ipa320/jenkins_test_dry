@@ -1,0 +1,16 @@
+<package>
+  <description brief="dry2">
+
+     dry2
+
+  </description>
+  <author>fmw</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dry2</url>
+  <depend package="dry1"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
