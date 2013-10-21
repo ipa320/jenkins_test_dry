@@ -8,6 +8,7 @@
   <url>http://ros.org/wiki/jenkins_test_dry</url>
 
   <depend stack="ros" />
+  <depend stack="roscpp" />
   <depend stack="jenkins_test_wet" />
 
 </stack>
