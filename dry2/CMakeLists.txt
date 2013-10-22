@@ -32,4 +32,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 rosbuild_add_executable(listener src/listener.cpp)
 
 # rostest
-rosbuild_add_roslaunch_check(launch)
+#rosbuild_add_roslaunch_check(launch)
