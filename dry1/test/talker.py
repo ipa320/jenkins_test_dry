@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-PKG='wet1'
+PKG='dry1'
 import roslib; roslib.load_manifest(PKG)
 
 import sys
