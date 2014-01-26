@@ -29,7 +29,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #rosbuild_add_executable(example examples/example.cpp)
 #target_link_libraries(example ${PROJECT_NAME})
 
-rosbuild_add_executable(listener src/listener.cpp)
+rosbuild_add_executable(talker src/talker.cpp)
 
-# rostest
-rosbuild_add_roslaunch_check(launch)
+rosbuild_add_pyunit(test/talker.py)
+rosbuild_add_rostest(test/talker.test)
