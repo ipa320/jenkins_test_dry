@@ -10,7 +10,6 @@
   <url>http://ros.org/wiki/dry2</url>
   <depend package="dry1"/>
   <depend package="roscpp"/>
-  <depend package="rostest"/>
 
 </package>
 
